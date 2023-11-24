@@ -9,7 +9,7 @@ import './index.css'
 
 const App = () => {
   return (
-    <main className='flex h-screen'>
+    <main className='flex h-screen bg-black'>
         <Routes>
             <Route element={<AuthLayout />}>
                 <Route path='/sign-in' element={<SigninForms />} />
